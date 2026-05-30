@@ -7,3 +7,9 @@ app = FastAPI()
 def to_upper(text: str):
     """Convert a query parameter 'text' to upper case."""
     return {"original": text, "upper": text.upper()}
+
+# Install requirements
+# python -m pip install --upgrade pip
+# pip install "fastapi[standard]"
+
+# fastapi dev main.py
